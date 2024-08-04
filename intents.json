@@ -1,0 +1,225 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! Welcome to our online store. How can I assist you today?",
+        "Hi there! How can I help you with your shopping today?",
+        "Hey! What can I do for you today?",
+        "Welcome! How can I make your shopping experience better?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, bye",
+        "Catch you later",
+        "I have to go now"
+      ],
+      "responses": [
+        "Thanks for visiting our store! See you soon!",
+        "Goodbye! Have a great day!",
+        "Thanks for stopping by. Come back anytime!",
+        "See you later! Hope to see you again soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "I appreciate it",
+        "Thank's a bunch",
+        "Thank's a lot",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could assist! If you have more questions, feel free to ask.",
+        "My pleasure! Anything else you need help with?"
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "What products do you offer?",
+        "What can I buy?",
+        "Show me what you sell",
+        "What items do you have?",
+        "Do you sell electronics?",
+        "Do you have clothing?",
+        "What kind of products are available?"
+      ],
+      "responses": [
+        "We offer a wide variety of products including electronics, clothing, accessories, and home goods. Is there something specific you're looking for?",
+        "You can find a range of items from electronics to fashion and home decor. What are you interested in today?",
+        "We sell everything from gadgets to clothing. You can explore our product categories on our website.",
+        "Our store has a diverse range of products. You can check them out [here](#)."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "What's the status of my order?",
+        "How can I track my order?",
+        "Order tracking",
+        "Has my order been shipped?",
+        "Can you track my order?"
+      ],
+      "responses": [
+        "You can track your order using the tracking number sent to your email. If you need further assistance, please provide your order number.",
+        "To check your order status, use the tracking link in your confirmation email. If you don't have it, I can look it up for you with your order number.",
+        "Your order status can be tracked online. Please provide your order number for further assistance.",
+        "You can track your order status [here](#). Let me know if you need any more help."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept PayPal?",
+        "How can I pay?",
+        "Are you cash only?",
+        "What forms of payment are accepted?"
+      ],
+      "responses": [
+        "We accept major credit cards like VISA, Mastercard, and American Express, as well as PayPal. You can also use Apple Pay and Google Pay.",
+        "Yes, we accept credit cards, PayPal, and other payment methods. You can see all the options at checkout.",
+        "You can pay using various methods including credit cards, PayPal, and mobile payment options like Apple Pay.",
+        "For your convenience, we accept several payment methods including credit cards, PayPal, and more."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "What's your return policy?",
+        "Can I return an item?",
+        "How do I return a product?",
+        "Can I get a refund?",
+        "What if I don't like the product?",
+        "Do you accept returns?"
+      ],
+      "responses": [
+        "We offer a 30-day return policy. If you're not satisfied with your purchase, you can return it for a refund or exchange. Just ensure the item is in its original condition.",
+        "You can return items within 30 days of purchase for a full refund or exchange. Please keep the receipt and ensure the product is unused.",
+        "Our return policy allows returns within 30 days for a refund or exchange. For more details, visit our return policy page [here](#).",
+        "Yes, we accept returns within 30 days. Make sure the item is in its original condition, and we'll process your return."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "How long does delivery take?",
+        "When will my order arrive?",
+        "What are your shipping times?",
+        "How fast is shipping?",
+        "What are the shipping options?",
+        "How long for delivery?"
+      ],
+      "responses": [
+        "Standard delivery usually takes 2-4 business days. Expedited shipping options are also available at checkout.",
+        "Your order should arrive within 2-4 business days. We also offer express shipping if you need it sooner.",
+        "Shipping typically takes 2-4 business days, depending on your location. Check out our shipping options at checkout.",
+        "We offer several shipping options. Standard delivery takes 2-4 business days, and expedited shipping is available if needed."
+      ]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "What are your store hours?",
+        "When are you open?",
+        "What time do you close?",
+        "Are you open today?",
+        "When does the store open?",
+        "What are your business hours?"
+      ],
+      "responses": [
+        "Our online store is open 24/7, so you can shop anytime! If you need customer support, our team is available from 9 AM to 9 PM.",
+        "We operate online, so our store is always open. For support, our hours are from 9 AM to 9 PM.",
+        "You can shop on our website at any time. Our support team is here to help from 9 AM to 9 PM.",
+        "We're open 24/7 online, and our customer service is available from 9 AM to 9 PM."
+      ]
+    },
+    {
+      "tag": "store_location",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "Where is your store?",
+        "Where can I find you?",
+        "What is your physical location?"
+      ],
+      "responses": [
+        "We're an online store, so you can shop from anywhere! If you're looking for more information about us, visit our about page [here](#).",
+        "Our store is online, making it easy for you to shop anytime, anywhere. Learn more about us [here](#).",
+        "We operate entirely online, so our store is wherever you are! Check out our about page for more details [here](#).",
+        "Our store is online, so you can visit us from the comfort of your home. For more about us, click [here](#)."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What's your phone number?",
+        "Can I call you?",
+        "How do I get in touch?",
+        "What's your email?",
+        "How can I reach customer service?"
+      ],
+      "responses": [
+        "You can reach us through our contact form [here](#), or email us at [Email Address]. We're here to help!",
+        "Feel free to contact us via our contact page [here](#) or email us at [Email Address]. We’ll get back to you as soon as possible!",
+        "For any inquiries, you can contact us through our website [here](#) or via email at [Email Address].",
+        "You can get in touch with our customer service through our contact form [here](#) or by emailing us at [Email Address]."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Are there any discounts?",
+        "Do you have any sales?",
+        "Is there a discount code?",
+        "What promotions are available?",
+        "Do you offer any deals?"
+      ],
+      "responses": [
+        "We often have promotions and discounts. Check out our latest offers [here](#).",
+        "Yes, we offer discounts from time to time. Visit our promotions page [here](#) to see what's available.",
+        "You can find current sales and discount codes on our website [here](#).",
+        "We regularly update our promotions. Take a look at our deals [here](#)."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes?",
+        "Make me laugh",
+        "Say something funny",
+        "Do you have any jokes?"
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "Why did the coffee file a police report? It got mugged!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What do you call fake spaghetti? An impasta!"
+      ]
+    }
+  ]
+}
